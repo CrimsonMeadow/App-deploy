@@ -4,6 +4,7 @@ pipeline {
     tools {
         gradle 'Gradle-6.2'
     }
+    
     stages {
         stage("run frontend") {
             steps {
